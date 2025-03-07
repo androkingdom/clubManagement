@@ -11,7 +11,7 @@ const Todos = ["Extrace Use full function in admin controlle to Utils", ""];
 connectDB()
   .then(() => {
     app.listen(port, "0.0.0.0", () => {
-      console.log(`⚙️ Server is running on http://localhost:${port}`);
+      console.log(`⚙️ Server now running on http://localhost:${port}`);
       console.log(Todos);
     });
   })
