@@ -1,5 +1,5 @@
 {
-  "name": ".",
+  "name": "student-management-app-client",
   "private": true,
   "type": "module",
   "scripts": {
